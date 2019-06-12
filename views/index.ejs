@@ -1,0 +1,78 @@
+<%- include('bootheader') -%>
+    <div class="jumbotron">
+        <h1>CS152aj Quiz 1</h1>
+        <p>Write the HTML with bootstrap to create this page. Upload your code to Latte.</p>
+    </div>
+
+
+    <div class="container">
+
+          <div class="row">
+            <div class="col-lg col-lg-4">
+              <img src="images/Brandeis.jpg" width="100%">
+            </div>
+            <div class="col-md-4 col-lg-8">
+          <a href="https://www.brandeis.edu/">Brandeis University</a> was named after Justice Louis Dembitz Brandeis
+
+          <ul>
+            <li>Supreme Court Justice
+            <li>Strong supporter of privacy
+            <li>Namesake of Brandeis University
+            </div>
+          </ul>
+          <div class="col-md col-sm-10">
+
+          </div>
+
+          </div>
+          <div class="row">
+        <div class="jumbotron col-lg col-lg-4.5">
+            <h1>Enter your information</h1>
+            <p>To be enrolled in a raffle</p>
+
+        </div>
+        <div class="col-md col-sm-4">
+          <table class="table table-bordered">
+  <thead>
+
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">Name</th>
+
+      <td><div class="col">
+      <input type="text" class="form-control" >
+    </div></td>
+    </tr>
+    <tr>
+      <th scope="row">Email</th>
+      <td><div class="col">
+      <input type="text" class="form-control" >
+    </div></td>
+    </tr>
+    <tr>
+      <th scope="row">Class</th>
+      <td> <label class="my-1 mr-2" for="inlineFormCustomSelectPref"></label>
+  <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+    <option selected>Freshman</option>
+    <option value="1">Sophomore</option>
+    <option value="2">Junior</option>
+    <option value="3">Senior</option>
+  </select></td>
+    </tr>
+  </tbody>
+</table>
+        </div>
+        
+        <div class="col-sm col-sm-3">
+          <button type="button" class="btn btn-primary">Submit</button>
+          <br>
+          <button type="button" class="btn btn-warning">Reset</button>
+        </div>
+      </div>
+
+
+
+
+
+<%- include('bootfooter') -%>
